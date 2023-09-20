@@ -8,12 +8,12 @@ for( let i = 0; i < heroes.length; i++ ) {
 
 
 console.warn('For in');
-for( let i in heroes ) {
+for( let i in heroes ) { //con index
     console.log( heroes[i] );
 }
 
 console.warn('For of');
-for( let heroe of heroes ){
+for( let heroe of heroes ){ //con heroe
     console.log( heroe );
 }
 
